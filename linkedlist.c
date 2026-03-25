@@ -40,7 +40,7 @@ struct node* addback(struct node* head, int data) {
 struct node* find(struct node* head, int data) {
     while (head != NULL) {
         if (head->data == data)
-            return head; // tìm thấy
+            return head; // tìm thấy   
         head = head->next;
     }
     return NULL; // không tìm thấy
